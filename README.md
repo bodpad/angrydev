@@ -10,7 +10,7 @@
     pip install -r requirements.txt
     
     # Запускаем сервер
-    python3 server.py
+    python3 server.py dictionary.txt 5000
     
     # Запускаем клиент
-    python3 client.py
+    python3 client.py 127.0.0.1 5000
